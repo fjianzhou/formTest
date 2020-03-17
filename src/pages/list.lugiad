@@ -1,0 +1,2696 @@
+{
+  "type": "PolarBear",
+  "designPoint": [
+    -24385.6,
+    -24351.300000000003
+  ],
+  "scale": 0.6,
+  "areaId2ChildPadIndexString": {
+    "MainCard": "mainPad.MainCard",
+    "QueryForm": "MainCard.QueryForm"
+  },
+  "widgetId2ChildPad": {
+    "MainCard": {
+      "point": [
+        26.333333333333684,
+        105.00000000000017
+      ],
+      "width": 1180,
+      "index": 1,
+      "height": 677,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "SearchButton",
+          "z": 0,
+          "w": 70,
+          "h": 32,
+          "p": [
+            675.7272727272738,
+            513.7705627705625
+          ],
+          "pw": 5.932203389830509,
+          "ph": 4.726735598227474,
+          "pt": "rb",
+          "pp": [
+            57.265023112480826,
+            75.88930026153065
+          ]
+        },
+        {
+          "i": "ExpandButton",
+          "z": 1,
+          "w": 84,
+          "h": 32,
+          "p": [
+            571.6233766233773,
+            512.9134199134198
+          ],
+          "pw": 7.118644067796611,
+          "ph": 4.726735598227474,
+          "pt": "rb",
+          "pp": [
+            48.44265903587944,
+            75.76269127229244
+          ]
+        },
+        {
+          "i": "TotalCount",
+          "z": 2,
+          "w": 242,
+          "h": 30,
+          "p": [
+            16.873015873015902,
+            7.707431457439952
+          ],
+          "pw": 20.508474576271183,
+          "ph": 4.431314623338257,
+          "pt": "rb",
+          "pp": [
+            1.4299165994081273,
+            1.1384684575243653
+          ]
+        },
+        {
+          "i": "Page",
+          "z": 3,
+          "w": 762,
+          "h": 40,
+          "p": [
+            21.999999999999773,
+            8.88600288601151
+          ],
+          "pw": 64.57627118644068,
+          "ph": 5.908419497784342,
+          "pt": "lb",
+          "pp": [
+            1.8644067796609975,
+            1.3125558177269587
+          ],
+          "ft": "xw"
+        },
+        {
+          "i": "AddButton",
+          "z": 4,
+          "w": 74,
+          "h": 32,
+          "p": [
+            23.719946719946194,
+            436.92551892551927
+          ],
+          "pw": 6.271186440677965,
+          "ph": 4.726735598227474,
+          "pt": "lb",
+          "pp": [
+            2.0101649762666267,
+            64.538481377477
+          ]
+        },
+        {
+          "i": "QueryForm",
+          "z": 5,
+          "w": 1149,
+          "h": 112,
+          "p": [
+            15.025974025973454,
+            1.675324675324532
+          ],
+          "pw": 97.37288135593221,
+          "ph": 16.54357459379616,
+          "pp": [
+            1.2733876293197843,
+            0.2474630244201672
+          ]
+        },
+        {
+          "i": "Table",
+          "z": 6,
+          "w": 1135,
+          "h": 358,
+          "p": [
+            21.260739260738973,
+            60.076923076922185
+          ],
+          "pw": 96.1864406779661,
+          "ph": 52.88035450516987,
+          "pt": "lb",
+          "pp": [
+            1.8017575644694046,
+            8.87399159186443
+          ]
+        },
+        {
+          "i": "wbUp^f44",
+          "z": 7,
+          "w": 8,
+          "h": 2,
+          "p": [
+            20.704628704628078,
+            239.8704628704623
+          ],
+          "pw": 0.6779661016949152,
+          "ph": 0.29542097488921715,
+          "pp": [
+            1.7546295512396677,
+            35.43138299415987
+          ]
+        },
+        {
+          "i": "DeleteButton",
+          "z": 8,
+          "w": 85,
+          "h": 32,
+          "p": [
+            35.03072208692629,
+            436.92551892551927
+          ],
+          "pw": 7.203389830508475,
+          "ph": 4.726735598227474,
+          "pt": "rb",
+          "pp": [
+            2.968705261603923,
+            64.538481377477
+          ]
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wbUp^f44": {
+          "w": "Divider",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "dashed": false,
+            "type": "horizontal"
+          },
+          "i": "wbUp^f44"
+        },
+        "QueryForm": {
+          "childAreaId": "QueryForm",
+          "w": "MonkeyKing",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "TargetContainer": {
+              "module": "@lugia/lugia-web",
+              "monkeyType": "Point",
+              "props": {
+                "height": 130,
+                "width": 350
+              },
+              "version": "1.0.0",
+              "widgetName": "Card"
+            },
+            "height": 130,
+            "width": 350,
+            "type": "transparent"
+          },
+          "i": "QueryForm"
+        },
+        "AddButton": {
+          "w": "Button",
+          "a": "PlainButton",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "block": false,
+            "disabled": false,
+            "plain": true,
+            "shape": "default",
+            "size": "default",
+            "text": "+新增",
+            "type": "primary"
+          },
+          "i": "AddButton"
+        },
+        "DeleteButton": {
+          "w": "Button",
+          "a": "PlainButton",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "block": false,
+            "disabled": false,
+            "icon": "lugia-icon-reminder_minus_circle_o",
+            "plain": true,
+            "shape": "default",
+            "size": "default",
+            "text": "删除",
+            "type": "primary"
+          },
+          "i": "DeleteButton"
+        },
+        "Table": {
+          "w": "CustomTable",
+          "m": "@/components",
+          "v": "1.0.0",
+          "p": {
+            "indentSize": 15,
+            "rowKey": "key",
+            "showHeader": true,
+            "tableStyle": "bordered",
+            "columns": [
+              {
+                "key": "user_name",
+                "title": "姓名",
+                "dataIndex": "user_name"
+              },
+              {
+                "key": "user_age",
+                "title": "年龄",
+                "dataIndex": "user_age"
+              },
+              {
+                "key": "user_sex",
+                "title": "性别",
+                "dataIndex": "user_sex"
+              },
+              {
+                "key": "user_state",
+                "title": "状态",
+                "dataIndex": "user_state"
+              },
+              {
+                "key": "user_department",
+                "title": "所属部门",
+                "dataIndex": "user_department"
+              },
+              {
+                "key": "user_entry_time",
+                "title": "入职时间",
+                "dataIndex": "user_entry_time"
+              }
+            ]
+          },
+          "i": "Table"
+        },
+        "Page": {
+          "w": "Pagination",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "defaultCurrent": 1,
+            "defaultPageSize": 10,
+            "hideOnSinglePage": false,
+            "pageSizeOptions": [
+              "10",
+              "20",
+              "30",
+              "50"
+            ],
+            "showQuickJumper": true,
+            "showSizeChanger": false
+          },
+          "i": "Page"
+        },
+        "TotalCount": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "prefix": "*",
+            "showPrefix": false
+          },
+          "i": "TotalCount"
+        },
+        "SearchButton": {
+          "w": "Button",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "block": false,
+            "disabled": false,
+            "shape": "default",
+            "size": "default",
+            "text": "搜索",
+            "type": "primary"
+          },
+          "i": "SearchButton"
+        },
+        "ExpandButton": {
+          "w": "Button",
+          "a": "PlainButton",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "block": false,
+            "disabled": false,
+            "plain": true,
+            "shape": "default",
+            "size": "default",
+            "type": "primary"
+          },
+          "i": "ExpandButton"
+        }
+      },
+      "id": "MainCard",
+      "lastIndex": 0,
+      "fatherId": "mainPad",
+      "widgetId": "MainCard",
+      "group": false,
+      "templateConfig": {}
+    },
+    "QueryForm": {
+      "point": [
+        15.025974025973454,
+        1.675324675324532
+      ],
+      "width": 1149,
+      "index": 2,
+      "height": 112,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wbc!ALf6",
+          "z": 0,
+          "w": 8,
+          "h": 2,
+          "p": [
+            20.704628704628078,
+            239.8704628704623
+          ],
+          "pw": 0.6962576153176675,
+          "ph": 1.7857142857142856,
+          "pp": [
+            1.8019694259902592,
+            214.17005613434134
+          ]
+        },
+        {
+          "i": "wbwq]%0",
+          "z": 1,
+          "w": 96,
+          "h": 30,
+          "p": [
+            0,
+            24
+          ],
+          "pw": 8.355091383812011,
+          "ph": 26.785714285714285,
+          "pp": [
+            0,
+            21.428571428571427
+          ]
+        },
+        {
+          "i": "wb4Nyf1",
+          "z": 2,
+          "w": 275,
+          "h": 32,
+          "p": [
+            101.75,
+            24
+          ],
+          "pw": 23.93385552654482,
+          "ph": 28.57142857142857,
+          "pp": [
+            8.855526544821583,
+            21.428571428571427
+          ]
+        },
+        {
+          "i": "wbeKmC2",
+          "z": 3,
+          "w": 95,
+          "h": 30,
+          "p": [
+            383,
+            24
+          ],
+          "pw": 8.268059181897303,
+          "ph": 26.785714285714285,
+          "pp": [
+            33.33333333333333,
+            21.428571428571427
+          ]
+        },
+        {
+          "i": "wb#u643",
+          "z": 4,
+          "w": 275,
+          "h": 32,
+          "p": [
+            484.75,
+            24
+          ],
+          "pw": 23.93385552654482,
+          "ph": 28.57142857142857,
+          "pp": [
+            42.188859878154915,
+            21.428571428571427
+          ]
+        },
+        {
+          "i": "wbX]$c4",
+          "z": 5,
+          "w": 95,
+          "h": 30,
+          "p": [
+            766,
+            24
+          ],
+          "pw": 8.268059181897303,
+          "ph": 26.785714285714285,
+          "pp": [
+            66.66666666666666,
+            21.428571428571427
+          ]
+        },
+        {
+          "i": "wby8%Z5",
+          "z": 6,
+          "w": 275,
+          "h": 32,
+          "p": [
+            867.75,
+            24
+          ],
+          "pw": 23.93385552654482,
+          "ph": 28.57142857142857,
+          "pp": [
+            75.52219321148826,
+            21.428571428571427
+          ]
+        },
+        {
+          "i": "wbG[Pm6",
+          "z": 7,
+          "w": 96,
+          "h": 30,
+          "p": [
+            0,
+            80
+          ],
+          "pw": 8.355091383812011,
+          "ph": 26.785714285714285,
+          "pp": [
+            0,
+            71.42857142857143
+          ]
+        },
+        {
+          "i": "wbHnqf7",
+          "z": 8,
+          "w": 275,
+          "h": 32,
+          "p": [
+            101.75,
+            80
+          ],
+          "pw": 23.93385552654482,
+          "ph": 28.57142857142857,
+          "pp": [
+            8.855526544821583,
+            71.42857142857143
+          ]
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wbc!ALf6": {
+          "childAreaId": "QueryForm",
+          "w": "Divider",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "dashed": false,
+            "type": "horizontal"
+          },
+          "i": "wbc!ALf6"
+        },
+        "wbwq]%0": {
+          "offsetInfo": {
+            "margin": {
+              "top": 24
+            },
+            "preId": "",
+            "preIds": [
+              "wbwq]%0",
+              "wb4Nyf1"
+            ],
+            "minHeight": 80,
+            "widthScale": 0.25
+          },
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "姓名 : "
+          },
+          "i": "wbwq]%0"
+        },
+        "wb4Nyf1": {
+          "offsetInfo": {
+            "margin": {
+              "top": 24,
+              "left": 6,
+              "right": 6
+            },
+            "preId": "wbwq]%0",
+            "preIds": [
+              "wbwq]%0",
+              "wb4Nyf1"
+            ],
+            "minHeight": 80,
+            "widthScale": 0.75
+          },
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "userName",
+            "placeholder": "请输入姓名",
+            "validateType": "bottom"
+          },
+          "i": "wb4Nyf1"
+        },
+        "wbeKmC2": {
+          "offsetInfo": {
+            "margin": {
+              "top": 24
+            },
+            "preId": "wb4Nyf1",
+            "preIds": [
+              "wbeKmC2",
+              "wb#u643"
+            ],
+            "minHeight": 80,
+            "widthScale": 0.25
+          },
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "状态 : "
+          },
+          "i": "wbeKmC2"
+        },
+        "wb#u643": {
+          "offsetInfo": {
+            "margin": {
+              "top": 24,
+              "left": 6,
+              "right": 6
+            },
+            "preId": "wbeKmC2",
+            "preIds": [
+              "wbeKmC2",
+              "wb#u643"
+            ],
+            "minHeight": 80,
+            "widthScale": 0.75
+          },
+          "w": "Select",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "userState",
+            "placeholder": "请输入状态",
+            "validateType": "bottom"
+          },
+          "i": "wb#u643"
+        },
+        "wbX]$c4": {
+          "offsetInfo": {
+            "margin": {
+              "top": 24
+            },
+            "preId": "wb#u643",
+            "preIds": [
+              "wbX]$c4",
+              "wby8%Z5"
+            ],
+            "minHeight": 80,
+            "widthScale": 0.25
+          },
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "所属部门 : "
+          },
+          "i": "wbX]$c4"
+        },
+        "wby8%Z5": {
+          "offsetInfo": {
+            "margin": {
+              "top": 24,
+              "left": 6,
+              "right": 6
+            },
+            "preId": "wbX]$c4",
+            "preIds": [
+              "wbX]$c4",
+              "wby8%Z5"
+            ],
+            "minHeight": 80,
+            "widthScale": 0.75
+          },
+          "w": "Select",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "userDepartment",
+            "placeholder": "请输入所属部门",
+            "validateType": "bottom"
+          },
+          "i": "wby8%Z5"
+        },
+        "wbG[Pm6": {
+          "offsetInfo": {
+            "margin": {
+              "top": 24
+            },
+            "preId": "wby8%Z5",
+            "preIds": [
+              "wbG[Pm6",
+              "wbHnqf7"
+            ],
+            "minHeight": 80,
+            "widthScale": 0.25
+          },
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "入职时间 : "
+          },
+          "i": "wbG[Pm6"
+        },
+        "wbHnqf7": {
+          "offsetInfo": {
+            "margin": {
+              "top": 24,
+              "left": 6,
+              "right": 6
+            },
+            "preId": "wbG[Pm6",
+            "preIds": [
+              "wbG[Pm6",
+              "wbHnqf7"
+            ],
+            "minHeight": 80,
+            "widthScale": 0.75
+          },
+          "w": "DatePicker",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "userEntryTime",
+            "placeholder": "请输入入职时间",
+            "validateType": "bottom",
+            "createPortal": true
+          },
+          "i": "wbHnqf7"
+        }
+      },
+      "id": "QueryForm",
+      "lastIndex": 0,
+      "fatherId": "MainCard",
+      "widgetId": "QueryForm",
+      "group": false,
+      "templateConfig": {
+        "columnCount": 3,
+        "slotType": "GridFlow",
+        "areaMargin": {
+          "left": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      }
+    }
+  },
+  "forkDependencies": [
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Label"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Input"
+    }
+  ],
+  "mainDependencies": [
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Label"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Breadcrumb"
+    },
+    {
+      "module": "@lugia/lugia-web",
+      "monkeyType": "Point",
+      "props": {
+        "height": 130,
+        "width": 350
+      },
+      "version": "1.0.0",
+      "widgetName": "Card"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Button"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Pagination"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@/components",
+      "widgetName": "CustomTable"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Divider"
+    },
+    {
+      "version": "lasted",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Label"
+    },
+    {
+      "version": "lasted",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Input"
+    },
+    {
+      "version": "lasted",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Select"
+    },
+    {
+      "version": "lasted",
+      "module": "@lugia/lugia-web",
+      "widgetName": "DatePicker"
+    }
+  ],
+  "forkPad": {
+    "point": [
+      -24385.6,
+      -24351.300000000003
+    ],
+    "width": 50000,
+    "index": 0,
+    "height": 50000,
+    "zIndex": 4000,
+    "type": "ForkPad",
+    "layers": [
+      {
+        "i": "wbS05X42",
+        "z": 0,
+        "w": 70,
+        "h": 19,
+        "p": [
+          23976.998610657076,
+          24660.256074970042
+        ],
+        "pw": 0.13999999999999999,
+        "ph": 0.038,
+        "pp": [
+          47.953997221314154,
+          49.32051214994008
+        ]
+      },
+      {
+        "i": "wboJuU43",
+        "z": 1,
+        "w": 230,
+        "h": 32,
+        "p": [
+          24049.06573498965,
+          24653.146997929613
+        ],
+        "pw": 0.45999999999999996,
+        "ph": 0.064,
+        "pp": [
+          48.0981314699793,
+          49.30629399585922
+        ]
+      },
+      {
+        "i": "wbcnx^20",
+        "z": 2,
+        "w": 154,
+        "h": 19,
+        "p": [
+          24056.99861065708,
+          24660.256074970042
+        ],
+        "pw": 0.308,
+        "ph": 0.038,
+        "pp": [
+          48.11399722131416,
+          49.32051214994008
+        ]
+      }
+    ],
+    "idSeq": 67,
+    "id2WidgetInfo": {
+      "wboJuU43": {
+        "w": "Input",
+        "m": "@lugia/lugia-web",
+        "v": "1.0.0",
+        "p": {
+          "autoFocus": false,
+          "disabled": false,
+          "readOnly": false,
+          "size": "default",
+          "type": "text",
+          "validateStatus": "success",
+          "validateType": "default"
+        },
+        "i": "wboJuU43"
+      },
+      "wbS05X42": {
+        "w": "Label",
+        "m": "@lugia/lugia-web",
+        "v": "1.0.0",
+        "p": {
+          "prefix": "*",
+          "showPrefix": false,
+          "text": "查询名称："
+        },
+        "i": "wbS05X42"
+      },
+      "wbcnx^20": {
+        "w": "Label",
+        "m": "@lugia/lugia-web",
+        "v": "1.0.0",
+        "p": {
+          "prefix": "*",
+          "showPrefix": false,
+          "text": "请输入要查询表格的名称"
+        },
+        "i": "wbcnx^20"
+      }
+    },
+    "id": "forkPad",
+    "lastIndex": 41,
+    "group": false,
+    "templateConfig": {}
+  },
+  "mainPad": {
+    "point": [
+      -5.599999999998545,
+      210.1999999999971
+    ],
+    "width": 1240,
+    "index": 0,
+    "height": 877,
+    "zIndex": 4000,
+    "type": "MainPad",
+    "layers": [
+      {
+        "i": "Desc",
+        "z": 0,
+        "w": 1084,
+        "h": 33,
+        "p": [
+          28.797101449275488,
+          65.46376811594246
+        ],
+        "pw": 87.41935483870968,
+        "ph": 3.762827822120866,
+        "pp": [
+          2.322346891070604,
+          7.464511757804157
+        ]
+      },
+      {
+        "i": "Title",
+        "z": 1,
+        "w": 1099,
+        "h": 23,
+        "p": [
+          28.047101449275686,
+          39.876811594202934
+        ],
+        "pw": 88.62903225806451,
+        "ph": 2.6225769669327255,
+        "pp": [
+          2.261863020102878,
+          4.546956852246629
+        ]
+      },
+      {
+        "i": "Router",
+        "z": 2,
+        "w": 858,
+        "h": 24,
+        "p": [
+          25.797101449275573,
+          11.195652173913487
+        ],
+        "pw": 69.19354838709677,
+        "ph": 2.7366020524515395,
+        "pp": [
+          2.0804114071996427,
+          1.2765851965693829
+        ]
+      },
+      {
+        "i": "MainCard",
+        "z": 3,
+        "w": 1180,
+        "h": 677,
+        "p": [
+          26.333333333333684,
+          105.00000000000017
+        ],
+        "pw": 95.16129032258065,
+        "ph": 77.19498289623718,
+        "pp": [
+          2.123655913978523,
+          11.972633979475503
+        ]
+      }
+    ],
+    "idSeq": 91291,
+    "id2WidgetInfo": {
+      "MainCard": {
+        "childAreaId": "MainCard",
+        "w": "MonkeyKing",
+        "m": "@lugia/lugia-web",
+        "v": "1.0.0",
+        "p": {
+          "TargetContainer": {
+            "module": "@lugia/lugia-web",
+            "monkeyType": "Point",
+            "props": {
+              "height": 130,
+              "width": 350
+            },
+            "version": "1.0.0",
+            "widgetName": "Card"
+          },
+          "height": 130,
+          "width": 350
+        },
+        "i": "MainCard"
+      },
+      "Router": {
+        "w": "Breadcrumb",
+        "m": "@lugia/lugia-web",
+        "v": "1.0.0",
+        "p": {
+          "lastSeparator": "",
+          "separator": "/",
+          "routes": [
+            {
+              "path": "user/list",
+              "title": "用户列表",
+              "widgetName": "Input"
+            },
+            {
+              "path": "list",
+              "title": "用户列表"
+            }
+          ]
+        },
+        "i": "Router"
+      },
+      "Title": {
+        "w": "Label",
+        "m": "@lugia/lugia-web",
+        "v": "1.0.0",
+        "p": {
+          "prefix": "*",
+          "showPrefix": false,
+          "text": "用户列表"
+        },
+        "i": "Title"
+      },
+      "Desc": {
+        "w": "Label",
+        "m": "@lugia/lugia-web",
+        "v": "1.0.0",
+        "p": {
+          "prefix": "*",
+          "showPrefix": false
+        },
+        "i": "Desc"
+      }
+    },
+    "id": "mainPad",
+    "lastIndex": 71,
+    "group": false,
+    "templateConfig": {},
+    "children": [
+      {
+        "widgetId": "MainCard",
+        "path": [
+          "@root"
+        ],
+        "children": [
+          {
+            "widgetId": "QueryForm",
+            "path": [
+              "@root",
+              "MainCard"
+            ]
+          }
+        ]
+      }
+    ],
+    "backgroudColor": "#f8f8f8"
+  },
+  "themes": {
+    "widgetId2ThemeInfo": {
+      "Desc": {
+        "Container": {
+          "normal": {
+            "color": "#666666",
+            "font": {
+              "family": "",
+              "size": 14,
+              "style": "normal",
+              "weight": "normal"
+            },
+            "width": 1084,
+            "height": 33
+          }
+        }
+      },
+      "SearchButton": {
+        "Container": {
+          "normal": {
+            "borderRadius": {
+              "bottomLeft": "",
+              "bottomRight": "",
+              "topLeft": "",
+              "topRight": ""
+            },
+            "height": 32,
+            "width": 70
+          }
+        }
+      },
+      "Table": {
+        "Container": {
+          "normal": {
+            "height": 358,
+            "width": 1135
+          }
+        },
+        "getValue": {
+          "Container": {
+            "normal": {
+              "width": 1149,
+              "height": 360
+            }
+          }
+        }
+      },
+      "Title": {
+        "Container": {
+          "normal": {
+            "color": "#333333",
+            "font": {
+              "family": "",
+              "size": 16,
+              "style": "normal",
+              "weight": "500"
+            },
+            "width": 1099,
+            "height": 23
+          }
+        }
+      },
+      "wbS05X42": {
+        "Container": {
+          "normal": {
+            "color": "#333333",
+            "font": {
+              "family": "",
+              "size": 14,
+              "style": "normal",
+              "weight": "normal"
+            }
+          }
+        }
+      },
+      "TotalCount": {
+        "Container": {
+          "normal": {
+            "color": "#666666",
+            "font": {
+              "family": "",
+              "size": 14,
+              "style": "normal",
+              "weight": "normal"
+            },
+            "width": 241,
+            "height": 30,
+            "textAlign": "right"
+          }
+        }
+      },
+      "wbUp^f44": {
+        "Container": {
+          "normal": {
+            "height": 23,
+            "width": 3232
+          }
+        },
+        "HorizontalDivider": {
+          "normal": {
+            "background": {
+              "color": "#e8e8e8"
+            },
+            "width": 1130
+          }
+        }
+      },
+      "Router": {
+        "BreadcrumbItem": {
+          "Text": {
+            "normal": {
+              "last": {
+                "color": "#666666",
+                "font": {
+                  "family": "",
+                  "size": "",
+                  "style": "normal",
+                  "weight": "normal"
+                }
+              }
+            }
+          }
+        },
+        "Container": {
+          "normal": {
+            "width": 858,
+            "height": 24
+          }
+        }
+      },
+      "DeleteButton": {
+        "Container": {
+          "normal": {
+            "background": "none",
+            "border": "none"
+          }
+        }
+      },
+      "wbcnx^20": {
+        "Container": {
+          "normal": {
+            "color": "#cccccc",
+            "font": {
+              "family": "",
+              "size": 14,
+              "style": "normal",
+              "weight": "normal"
+            }
+          }
+        }
+      },
+      "AddButton": {
+        "Container": {
+          "normal": {
+            "background": "none",
+            "border": {
+              "all": {
+                "color": "#4d63ff",
+                "style": "solid",
+                "width": ""
+              },
+              "bottom": {
+                "color": "#4d63ff",
+                "style": "solid",
+                "width": ""
+              },
+              "left": {
+                "color": "#4d63ff",
+                "style": "solid",
+                "width": ""
+              },
+              "right": {
+                "color": "#4d63ff",
+                "style": "solid",
+                "width": ""
+              },
+              "top": {
+                "color": "#4d63ff",
+                "style": "solid",
+                "width": ""
+              }
+            }
+          }
+        }
+      },
+      "ExpandButton": {
+        "Container": {
+          "normal": {
+            "background": "none",
+            "border": "none"
+          }
+        }
+      },
+      "MainCard": {
+        "Container": {
+          "normal": {
+            "height": 677,
+            "width": 1180
+          }
+        }
+      },
+      "wboJuU43": {
+        "Container": {
+          "normal": {
+            "height": 32,
+            "width": 230
+          }
+        }
+      },
+      "Page": {
+        "0": "r",
+        "1": "e",
+        "2": "t",
+        "3": "u",
+        "4": "r",
+        "5": "n",
+        "6": " ",
+        "7": "{",
+        "8": "P",
+        "9": "a",
+        "10": "g",
+        "11": "i",
+        "12": "n",
+        "13": "a",
+        "14": "t",
+        "15": "i",
+        "16": "o",
+        "17": "n",
+        "18": "C",
+        "19": "o",
+        "20": "n",
+        "21": "t",
+        "22": "a",
+        "23": "i",
+        "24": "n",
+        "25": "e",
+        "26": "r",
+        "27": ":",
+        "28": " ",
+        "29": "{",
+        "30": "n",
+        "31": "o",
+        "32": "r",
+        "33": "m",
+        "34": "a",
+        "35": "l",
+        "36": ":",
+        "37": " ",
+        "38": "{",
+        "39": " ",
+        "40": "w",
+        "41": "i",
+        "42": "d",
+        "43": "t",
+        "44": "h",
+        "45": ":",
+        "46": " ",
+        "47": "1",
+        "48": "0",
+        "49": "0",
+        "50": "0",
+        "51": "}",
+        "52": "}",
+        "53": "}",
+        "PaginationContainer": {
+          "normal": {
+            "width": 800
+          }
+        },
+        "Container": {
+          "normal": {
+            "width": 762,
+            "height": 40
+          }
+        }
+      },
+      "QueryForm": {
+        "Container": {
+          "normal": {
+            "height": 112,
+            "width": 1149
+          }
+        }
+      },
+      "wbc!ALf6": {
+        "Container": {
+          "normal": {
+            "height": 23,
+            "width": 3232
+          }
+        },
+        "HorizontalDivider": {
+          "normal": {
+            "background": {
+              "color": "#e8e8e8"
+            },
+            "width": 1130
+          }
+        }
+      },
+      "wbwq]%0": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 95.75
+          }
+        }
+      },
+      "wb4Nyf1": {
+        "Placeholder": {
+          "normal": {
+            "font": {
+              "size": 14
+            },
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "width": 275.25,
+            "height": 32
+          }
+        }
+      },
+      "wbeKmC2": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 95.75
+          }
+        }
+      },
+      "wb#u643": {
+        "Placeholder": {
+          "normal": {
+            "font": {
+              "size": 14
+            },
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "width": 275.25,
+            "height": 32
+          }
+        }
+      },
+      "wbX]$c4": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 95.75
+          }
+        }
+      },
+      "wby8%Z5": {
+        "Placeholder": {
+          "normal": {
+            "font": {
+              "size": 14
+            },
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "width": 275.25,
+            "height": 32
+          }
+        }
+      },
+      "wbG[Pm6": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 95.75
+          }
+        }
+      },
+      "wbHnqf7": {
+        "Placeholder": {
+          "normal": {
+            "font": {
+              "size": 14
+            },
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "width": 275.25,
+            "height": 32
+          }
+        }
+      }
+    }
+  },
+  "lugiax": {
+    "page2mutation": {},
+    "widgetId2PropsName2BindInfo": {
+      "QueryForm": {
+        "theme": {
+          "m": "$__data__.model",
+          "f": "theme",
+          "p": "theme",
+          "b": "connect"
+        }
+      },
+      "MainCard": {
+        "theme": {
+          "m": "$__data__.model",
+          "f": "theme",
+          "p": "theme",
+          "b": "connect"
+        }
+      },
+      "ExpandButton": {
+        "icon": {
+          "m": "$__data__.model",
+          "f": "ExpandButton.icon",
+          "p": "icon",
+          "b": "connect"
+        },
+        "text": {
+          "m": "$__data__.model",
+          "f": "ExpandButton.text",
+          "p": "text",
+          "b": "connect"
+        },
+        "lugiaHidden": {
+          "m": "$__data__.model",
+          "f": "btnHidden",
+          "p": "lugiaHidden",
+          "b": "connect"
+        }
+      },
+      "Page": {
+        "current": {
+          "m": "list",
+          "f": "current",
+          "p": "current",
+          "b": "connect"
+        },
+        "total": {
+          "m": "list",
+          "f": "total",
+          "p": "total",
+          "b": "connect"
+        },
+        "pageSize": {
+          "m": "list",
+          "f": "pageSize",
+          "p": "pageSize",
+          "b": "connect"
+        }
+      },
+      "TotalCount": {
+        "text": {
+          "m": "list",
+          "f": "totalText",
+          "p": "text",
+          "b": "connect"
+        }
+      },
+      "wb4Nyf1": {
+        "value": {
+          "m": "list",
+          "f": "userName",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "userNameError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "userNameHelp",
+          "p": "help",
+          "b": "connect"
+        }
+      },
+      "wb#u643": {
+        "value": {
+          "m": "list",
+          "f": "userState",
+          "p": "value",
+          "b": "bind"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "userStateHelp",
+          "p": "help",
+          "b": "connect"
+        },
+        "data": {
+          "m": "list",
+          "f": "userStateData",
+          "p": "data",
+          "b": "connect"
+        }
+      },
+      "wby8%Z5": {
+        "value": {
+          "m": "list",
+          "f": "userDepartment",
+          "p": "value",
+          "b": "bind"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "userDepartmentHelp",
+          "p": "help",
+          "b": "connect"
+        },
+        "data": {
+          "m": "list",
+          "f": "department",
+          "p": "data",
+          "b": "connect"
+        }
+      },
+      "wbHnqf7": {
+        "value": {
+          "m": "list",
+          "f": "userEntryTime",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "userEntryTimeError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "userEntryTimeHelp",
+          "p": "help",
+          "b": "connect"
+        }
+      },
+      "Table": {
+        "data": {
+          "m": "list",
+          "f": "table",
+          "p": "data",
+          "b": "connect"
+        },
+        "selectRowKeys": {
+          "m": "list",
+          "f": "selected",
+          "p": "selectRowKeys",
+          "b": "connect"
+        }
+      }
+    },
+    "widgetId2EventName2MutationInfo": {
+      "Table": {
+        "onChange": {
+          "e": "onChange",
+          "m": "list",
+          "mu": "onSelected"
+        },
+        "onEdit": {
+          "e": "onEdit",
+          "m": "list",
+          "mu": "asyncOnEdit"
+        },
+        "onDelete": {
+          "e": "onDelete",
+          "m": "list",
+          "mu": "asyncOnDelete"
+        }
+      },
+      "AddButton": {
+        "onClick": {
+          "bindType": "connect",
+          "e": "onClick",
+          "m": "list",
+          "mu": "goToAddUserPage"
+        }
+      },
+      "Page": {
+        "onChange": {
+          "e": "onChange",
+          "m": "list",
+          "mu": "asyncOnChangePage"
+        }
+      },
+      "SearchButton": {
+        "onClick": {
+          "bindType": "connect",
+          "e": "onClick",
+          "m": "list",
+          "mu": "asyncQuery"
+        }
+      },
+      "Title": {
+        "onClick": {
+          "bindType": "connect",
+          "e": "onClick",
+          "m": "list",
+          "mu": "goToAddUserPage"
+        }
+      }
+    },
+    "pageData": {
+      "dependenciesModels": [
+        "list"
+      ],
+      "state": {
+        "btnHidden": false,
+        "direction": -1,
+        "ExpandButton": {
+          "icon": "lugia-icon-direction_up",
+          "text": "收起"
+        },
+        "theme": {
+          "QueryForm": {
+            "Container": {
+              "normal": {
+                "height": 112,
+                "overflow": "hidden"
+              }
+            }
+          },
+          "MainCard": {
+            "Container": {
+              "normal": {
+                "height": 677
+              }
+            }
+          }
+        },
+        "userNameError": "",
+        "userNameHelp": "",
+        "userStateError": "",
+        "userStateHelp": "",
+        "userDepartmentError": "",
+        "userDepartmentHelp": "",
+        "userEntryTimeError": "",
+        "userEntryTimeHelp": ""
+      },
+      "scripts": {
+        "onExpand": {
+          "type": "Project",
+          "code": "../ue/onExpand"
+        },
+        "onInit": {
+          "type": "Project",
+          "code": "../ue/onInit"
+        },
+        "onDelete": {
+          "type": "Project",
+          "code": "../ue/onDelete"
+        },
+        "onView": {
+          "type": "Project",
+          "code": "../ue/onViewRecord"
+        },
+        "onValidate": {
+          "type": "Project",
+          "code": "../ue/list/validate"
+        }
+      },
+      "bindEvent": {
+        "ExpandButton": {
+          "onClick": "onExpand"
+        },
+        "DeleteButton": {
+          "onClick": "onDelete"
+        },
+        "Table": {
+          "onView": "onView"
+        },
+        "wb4Nyf1": {
+          "onChange": "onValidate"
+        },
+        "wb#u643": {
+          "onChange": "onValidate"
+        },
+        "wby8%Z5": {
+          "onChange": "onValidate"
+        },
+        "wbHnqf7": {
+          "onChange": "onValidate"
+        }
+      },
+      "lifeScripts": {
+        "constructor": "onInit"
+      },
+      "model": "0e58d3c7-396c-4587-b47b-15c03257e2ff"
+    }
+  },
+  "assets": {
+    "widgetIdHasAssetPropsName": {},
+    "widgetIdHasAssetThemeName": {}
+  },
+  "widgetId2Locked": {},
+  "layoutInfos": {
+    "mode2Config": {
+      "1240x877": {
+        "mainPadSize": {
+          "width": 1240,
+          "height": 877
+        },
+        "widthRange": [
+          0,
+          50000
+        ],
+        "scale": 0.6,
+        "forkPadPoint": [
+          -24385.6,
+          -24351.300000000003
+        ]
+      }
+    },
+    "mode2LayoutData": {
+      "1240x877": {
+        "wbS05X42": {
+          "theme": {
+            "Container": {
+              "normal": {
+                "color": "#333333",
+                "font": {
+                  "family": "",
+                  "size": 14,
+                  "style": "normal",
+                  "weight": "normal"
+                }
+              }
+            }
+          },
+          "a": "forkPad",
+          "i": "wbS05X42",
+          "z": 0,
+          "w": 70,
+          "h": 19,
+          "p": [
+            23976.998610657076,
+            24660.256074970042
+          ],
+          "wi": "wbS05X42",
+          "pw": 0.13999999999999999,
+          "ph": 0.038,
+          "pp": [
+            47.953997221314154,
+            49.32051214994008
+          ]
+        },
+        "wboJuU43": {
+          "theme": {
+            "Container": {
+              "normal": {
+                "height": 32,
+                "width": 230
+              }
+            }
+          },
+          "a": "forkPad",
+          "i": "wboJuU43",
+          "z": 1,
+          "w": 230,
+          "h": 32,
+          "p": [
+            24049.06573498965,
+            24653.146997929613
+          ],
+          "wi": "wboJuU43",
+          "pw": 0.45999999999999996,
+          "ph": 0.064,
+          "pp": [
+            48.0981314699793,
+            49.30629399585922
+          ]
+        },
+        "wbcnx^20": {
+          "theme": {
+            "Container": {
+              "normal": {
+                "color": "#cccccc",
+                "font": {
+                  "family": "",
+                  "size": 14,
+                  "style": "normal",
+                  "weight": "normal"
+                }
+              }
+            }
+          },
+          "a": "forkPad",
+          "i": "wbcnx^20",
+          "z": 2,
+          "w": 154,
+          "h": 19,
+          "p": [
+            24056.99861065708,
+            24660.256074970042
+          ],
+          "wi": "wbcnx^20",
+          "pw": 0.308,
+          "ph": 0.038,
+          "pp": [
+            48.11399722131416,
+            49.32051214994008
+          ]
+        },
+        "Desc": {
+          "theme": {
+            "Container": {
+              "normal": {
+                "color": "#666666",
+                "font": {
+                  "family": "",
+                  "size": 14,
+                  "style": "normal",
+                  "weight": "normal"
+                },
+                "width": 1084,
+                "height": 33
+              }
+            }
+          },
+          "a": "mainPad",
+          "i": "Desc",
+          "z": 0,
+          "w": 1084,
+          "h": 33,
+          "p": [
+            28.797101449275488,
+            65.46376811594246
+          ],
+          "wi": "Desc",
+          "pw": 87.41935483870968,
+          "ph": 3.762827822120866,
+          "pp": [
+            2.322346891070604,
+            7.464511757804157
+          ]
+        },
+        "Title": {
+          "theme": {
+            "Container": {
+              "normal": {
+                "color": "#333333",
+                "font": {
+                  "family": "",
+                  "size": 16,
+                  "style": "normal",
+                  "weight": "500"
+                },
+                "width": 1099,
+                "height": 23
+              }
+            }
+          },
+          "a": "mainPad",
+          "i": "Title",
+          "z": 1,
+          "w": 1099,
+          "h": 23,
+          "p": [
+            28.047101449275686,
+            39.876811594202934
+          ],
+          "wi": "Title",
+          "pw": 88.62903225806451,
+          "ph": 2.6225769669327255,
+          "pp": [
+            2.261863020102878,
+            4.546956852246629
+          ]
+        },
+        "Router": {
+          "theme": {
+            "BreadcrumbItem": {
+              "Text": {
+                "normal": {
+                  "last": {
+                    "color": "#666666",
+                    "font": {
+                      "family": "",
+                      "size": "",
+                      "style": "normal",
+                      "weight": "normal"
+                    }
+                  }
+                }
+              }
+            },
+            "Container": {
+              "normal": {
+                "width": 858,
+                "height": 24
+              }
+            }
+          },
+          "a": "mainPad",
+          "i": "Router",
+          "z": 2,
+          "w": 858,
+          "h": 24,
+          "p": [
+            25.797101449275573,
+            11.195652173913487
+          ],
+          "wi": "Router",
+          "pw": 69.19354838709677,
+          "ph": 2.7366020524515395,
+          "pp": [
+            2.0804114071996427,
+            1.2765851965693829
+          ]
+        },
+        "MainCard": {
+          "theme": {
+            "Container": {
+              "normal": {
+                "height": 677,
+                "width": 1180
+              }
+            }
+          },
+          "a": "mainPad",
+          "i": "MainCard",
+          "z": 3,
+          "w": 1180,
+          "h": 677,
+          "p": [
+            26.333333333333684,
+            105.00000000000017
+          ],
+          "wi": "MainCard",
+          "pw": 95.16129032258065,
+          "ph": 77.19498289623718,
+          "pp": [
+            2.123655913978523,
+            11.972633979475503
+          ]
+        },
+        "SearchButton": {
+          "theme": {
+            "Container": {
+              "normal": {
+                "borderRadius": {
+                  "bottomLeft": "",
+                  "bottomRight": "",
+                  "topLeft": "",
+                  "topRight": ""
+                },
+                "height": 32,
+                "width": 70
+              }
+            }
+          },
+          "a": "MainCard",
+          "i": "SearchButton",
+          "z": 0,
+          "w": 70,
+          "h": 32,
+          "p": [
+            675.7272727272738,
+            513.7705627705625
+          ],
+          "wi": "SearchButton",
+          "pw": 5.932203389830509,
+          "ph": 4.726735598227474,
+          "pt": "rb",
+          "pp": [
+            57.265023112480826,
+            75.88930026153065
+          ]
+        },
+        "ExpandButton": {
+          "theme": {
+            "Container": {
+              "normal": {
+                "background": "none",
+                "border": "none"
+              }
+            }
+          },
+          "a": "MainCard",
+          "i": "ExpandButton",
+          "z": 1,
+          "w": 84,
+          "h": 32,
+          "p": [
+            571.6233766233773,
+            512.9134199134198
+          ],
+          "wi": "ExpandButton",
+          "pw": 7.457627118644068,
+          "ph": 4.726735598227474,
+          "pt": "rb",
+          "pp": [
+            48.44265903587944,
+            75.76269127229244
+          ]
+        },
+        "TotalCount": {
+          "theme": {
+            "Container": {
+              "normal": {
+                "color": "#666666",
+                "font": {
+                  "family": "",
+                  "size": 14,
+                  "style": "normal",
+                  "weight": "normal"
+                },
+                "width": 241,
+                "height": 30,
+                "textAlign": "right"
+              }
+            }
+          },
+          "a": "MainCard",
+          "i": "TotalCount",
+          "z": 2,
+          "w": 242,
+          "h": 30,
+          "p": [
+            16.873015873015902,
+            7.707431457439952
+          ],
+          "wi": "TotalCount",
+          "pw": 20.508474576271183,
+          "ph": 4.431314623338257,
+          "pt": "rb",
+          "pp": [
+            1.4299165994081273,
+            1.1384684575243653
+          ]
+        },
+        "Page": {
+          "theme": {
+            "0": "r",
+            "1": "e",
+            "2": "t",
+            "3": "u",
+            "4": "r",
+            "5": "n",
+            "6": " ",
+            "7": "{",
+            "8": "P",
+            "9": "a",
+            "10": "g",
+            "11": "i",
+            "12": "n",
+            "13": "a",
+            "14": "t",
+            "15": "i",
+            "16": "o",
+            "17": "n",
+            "18": "C",
+            "19": "o",
+            "20": "n",
+            "21": "t",
+            "22": "a",
+            "23": "i",
+            "24": "n",
+            "25": "e",
+            "26": "r",
+            "27": ":",
+            "28": " ",
+            "29": "{",
+            "30": "n",
+            "31": "o",
+            "32": "r",
+            "33": "m",
+            "34": "a",
+            "35": "l",
+            "36": ":",
+            "37": " ",
+            "38": "{",
+            "39": " ",
+            "40": "w",
+            "41": "i",
+            "42": "d",
+            "43": "t",
+            "44": "h",
+            "45": ":",
+            "46": " ",
+            "47": "1",
+            "48": "0",
+            "49": "0",
+            "50": "0",
+            "51": "}",
+            "52": "}",
+            "53": "}",
+            "PaginationContainer": {
+              "normal": {
+                "width": 800
+              }
+            },
+            "Container": {
+              "normal": {
+                "width": 762,
+                "height": 40
+              }
+            }
+          },
+          "a": "MainCard",
+          "i": "Page",
+          "z": 3,
+          "w": 762,
+          "h": 40,
+          "p": [
+            21.999999999999773,
+            8.88600288601151
+          ],
+          "wi": "Page",
+          "pw": 64.57627118644068,
+          "ph": 5.908419497784342,
+          "pt": "lb",
+          "pp": [
+            1.8644067796609975,
+            1.3125558177269587
+          ],
+          "ft": "xw"
+        },
+        "AddButton": {
+          "theme": {
+            "Container": {
+              "normal": {
+                "background": "none",
+                "border": {
+                  "all": {
+                    "color": "#4d63ff",
+                    "style": "solid",
+                    "width": ""
+                  },
+                  "bottom": {
+                    "color": "#4d63ff",
+                    "style": "solid",
+                    "width": ""
+                  },
+                  "left": {
+                    "color": "#4d63ff",
+                    "style": "solid",
+                    "width": ""
+                  },
+                  "right": {
+                    "color": "#4d63ff",
+                    "style": "solid",
+                    "width": ""
+                  },
+                  "top": {
+                    "color": "#4d63ff",
+                    "style": "solid",
+                    "width": ""
+                  }
+                }
+              }
+            }
+          },
+          "a": "MainCard",
+          "i": "AddButton",
+          "z": 4,
+          "w": 74,
+          "h": 32,
+          "p": [
+            23.719946719946194,
+            436.92551892551927
+          ],
+          "wi": "AddButton",
+          "pw": 6.271186440677965,
+          "ph": 4.726735598227474,
+          "pt": "lb",
+          "pp": [
+            2.0101649762666267,
+            64.538481377477
+          ]
+        },
+        "QueryForm": {
+          "theme": {
+            "Container": {
+              "normal": {
+                "height": 112,
+                "width": 1149
+              }
+            }
+          },
+          "a": "MainCard",
+          "i": "QueryForm",
+          "z": 5,
+          "w": 1149,
+          "h": 112,
+          "p": [
+            15.025974025973454,
+            1.675324675324532
+          ],
+          "wi": "QueryForm",
+          "pw": 97.37288135593221,
+          "ph": 16.54357459379616,
+          "pp": [
+            1.2733876293197843,
+            0.2474630244201672
+          ]
+        },
+        "Table": {
+          "theme": {
+            "Container": {
+              "normal": {
+                "height": 358,
+                "width": 1135
+              }
+            },
+            "getValue": {
+              "Container": {
+                "normal": {
+                  "width": 1149,
+                  "height": 360
+                }
+              }
+            }
+          },
+          "a": "MainCard",
+          "i": "Table",
+          "z": 6,
+          "w": 1135,
+          "h": 358,
+          "p": [
+            21.260739260738973,
+            60.076923076922185
+          ],
+          "wi": "Table",
+          "pw": 96.1864406779661,
+          "ph": 52.88035450516987,
+          "pt": "lb",
+          "pp": [
+            1.8017575644694046,
+            8.87399159186443
+          ]
+        },
+        "wbUp^f44": {
+          "theme": {
+            "Container": {
+              "normal": {
+                "height": 23,
+                "width": 3232
+              }
+            },
+            "HorizontalDivider": {
+              "normal": {
+                "background": {
+                  "color": "#e8e8e8"
+                },
+                "width": 1130
+              }
+            }
+          },
+          "a": "MainCard",
+          "i": "wbUp^f44",
+          "z": 7,
+          "w": 8,
+          "h": 2,
+          "p": [
+            20.704628704628078,
+            239.8704628704623
+          ],
+          "wi": "wbUp^f44",
+          "pw": 0.6779661016949152,
+          "ph": 0.29542097488921715,
+          "pp": [
+            1.7546295512396677,
+            35.43138299415987
+          ]
+        },
+        "DeleteButton": {
+          "theme": {
+            "Container": {
+              "normal": {
+                "background": "none",
+                "border": "none"
+              }
+            }
+          },
+          "a": "MainCard",
+          "i": "DeleteButton",
+          "z": 8,
+          "w": 85,
+          "h": 32,
+          "p": [
+            35.03072208692629,
+            436.92551892551927
+          ],
+          "wi": "DeleteButton",
+          "pw": 7.457627118644068,
+          "ph": 4.726735598227474,
+          "pt": "rb",
+          "pp": [
+            2.968705261603923,
+            64.538481377477
+          ]
+        },
+        "wbc!ALf6": {
+          "theme": {
+            "Container": {
+              "normal": {
+                "height": 23,
+                "width": 3232
+              }
+            },
+            "HorizontalDivider": {
+              "normal": {
+                "background": {
+                  "color": "#e8e8e8"
+                },
+                "width": 1130
+              }
+            }
+          },
+          "a": "QueryForm",
+          "i": "wbc!ALf6",
+          "z": 0,
+          "w": 8,
+          "h": 2,
+          "p": [
+            20.704628704628078,
+            239.8704628704623
+          ],
+          "wi": "wbc!ALf6",
+          "pw": 0.6962576153176675,
+          "ph": 1.7857142857142856,
+          "pp": [
+            1.8019694259902592,
+            214.17005613434134
+          ]
+        },
+        "wbwq]%0": {
+          "theme": {
+            "Container": {
+              "normal": {
+                "textAlign": "right",
+                "font": {
+                  "size": 14
+                },
+                "color": "#333",
+                "height": 30,
+                "lineHeight": 30,
+                "width": 95.75
+              }
+            }
+          },
+          "a": "QueryForm",
+          "i": "wbwq]%0",
+          "z": 1,
+          "w": 96,
+          "h": 30,
+          "p": [
+            0,
+            24
+          ],
+          "wi": "wbwq]%0",
+          "pw": 8.355091383812011,
+          "ph": 26.785714285714285,
+          "pp": [
+            0,
+            21.428571428571427
+          ]
+        },
+        "wb4Nyf1": {
+          "theme": {
+            "Placeholder": {
+              "normal": {
+                "font": {
+                  "size": 14
+                },
+                "color": "#ccc"
+              }
+            },
+            "Container": {
+              "normal": {
+                "width": 275.25,
+                "height": 32
+              }
+            }
+          },
+          "a": "QueryForm",
+          "i": "wb4Nyf1",
+          "z": 2,
+          "w": 275,
+          "h": 32,
+          "p": [
+            101.75,
+            24
+          ],
+          "wi": "wb4Nyf1",
+          "pw": 23.93385552654482,
+          "ph": 28.57142857142857,
+          "pp": [
+            8.855526544821583,
+            21.428571428571427
+          ]
+        },
+        "wbeKmC2": {
+          "theme": {
+            "Container": {
+              "normal": {
+                "textAlign": "right",
+                "font": {
+                  "size": 14
+                },
+                "color": "#333",
+                "height": 30,
+                "lineHeight": 30,
+                "width": 95.75
+              }
+            }
+          },
+          "a": "QueryForm",
+          "i": "wbeKmC2",
+          "z": 3,
+          "w": 95,
+          "h": 30,
+          "p": [
+            383,
+            24
+          ],
+          "wi": "wbeKmC2",
+          "pw": 8.268059181897303,
+          "ph": 26.785714285714285,
+          "pp": [
+            33.33333333333333,
+            21.428571428571427
+          ]
+        },
+        "wb#u643": {
+          "theme": {
+            "Placeholder": {
+              "normal": {
+                "font": {
+                  "size": 14
+                },
+                "color": "#ccc"
+              }
+            },
+            "Container": {
+              "normal": {
+                "width": 275.25,
+                "height": 32
+              }
+            }
+          },
+          "a": "QueryForm",
+          "i": "wb#u643",
+          "z": 4,
+          "w": 275,
+          "h": 32,
+          "p": [
+            484.75,
+            24
+          ],
+          "wi": "wb#u643",
+          "pw": 23.93385552654482,
+          "ph": 28.57142857142857,
+          "pp": [
+            42.188859878154915,
+            21.428571428571427
+          ]
+        },
+        "wbX]$c4": {
+          "theme": {
+            "Container": {
+              "normal": {
+                "textAlign": "right",
+                "font": {
+                  "size": 14
+                },
+                "color": "#333",
+                "height": 30,
+                "lineHeight": 30,
+                "width": 95.75
+              }
+            }
+          },
+          "a": "QueryForm",
+          "i": "wbX]$c4",
+          "z": 5,
+          "w": 95,
+          "h": 30,
+          "p": [
+            766,
+            24
+          ],
+          "wi": "wbX]$c4",
+          "pw": 8.268059181897303,
+          "ph": 26.785714285714285,
+          "pp": [
+            66.66666666666666,
+            21.428571428571427
+          ]
+        },
+        "wby8%Z5": {
+          "theme": {
+            "Placeholder": {
+              "normal": {
+                "font": {
+                  "size": 14
+                },
+                "color": "#ccc"
+              }
+            },
+            "Container": {
+              "normal": {
+                "width": 275.25,
+                "height": 32
+              }
+            }
+          },
+          "a": "QueryForm",
+          "i": "wby8%Z5",
+          "z": 6,
+          "w": 275,
+          "h": 32,
+          "p": [
+            867.75,
+            24
+          ],
+          "wi": "wby8%Z5",
+          "pw": 23.93385552654482,
+          "ph": 28.57142857142857,
+          "pp": [
+            75.52219321148826,
+            21.428571428571427
+          ]
+        },
+        "wbG[Pm6": {
+          "theme": {
+            "Container": {
+              "normal": {
+                "textAlign": "right",
+                "font": {
+                  "size": 14
+                },
+                "color": "#333",
+                "height": 30,
+                "lineHeight": 30,
+                "width": 95.75
+              }
+            }
+          },
+          "a": "QueryForm",
+          "i": "wbG[Pm6",
+          "z": 7,
+          "w": 96,
+          "h": 30,
+          "p": [
+            0,
+            80
+          ],
+          "wi": "wbG[Pm6",
+          "pw": 8.355091383812011,
+          "ph": 26.785714285714285,
+          "pp": [
+            0,
+            71.42857142857143
+          ]
+        },
+        "wbHnqf7": {
+          "theme": {
+            "Placeholder": {
+              "normal": {
+                "font": {
+                  "size": 14
+                },
+                "color": "#ccc"
+              }
+            },
+            "Container": {
+              "normal": {
+                "width": 275.25,
+                "height": 32
+              }
+            }
+          },
+          "a": "QueryForm",
+          "i": "wbHnqf7",
+          "z": 8,
+          "w": 275,
+          "h": 32,
+          "p": [
+            101.75,
+            80
+          ],
+          "wi": "wbHnqf7",
+          "pw": 23.93385552654482,
+          "ph": 28.57142857142857,
+          "pp": [
+            8.855526544821583,
+            71.42857142857143
+          ]
+        }
+      }
+    }
+  },
+  "zip": true
+}
