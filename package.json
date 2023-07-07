@@ -60,7 +60,7 @@
     "prettier": "^1.17.1",
     "slash": "^3.0.0",
     "styled-components": "^4.2.0",
-    "stylelint": "^13.2.0",
+    "stylelint": "^15.10.1",
     "stylelint-config-standard": "^18.3.0",
     "stylelint-processor-styled-components": "^1.10.0"
   },
